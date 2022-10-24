@@ -14,16 +14,15 @@ function App() {
     const backToHome = () => navigate('/Alina-Portfolio', {replace: true});
 
     return (
-        <div>
+        <div className="alina-portfolio-scroll">
             <header className="alina-portfolio__header">
                 <img className={arrowBackClass} src={arrowBack} alt="" onClick={backToHome}/>
                 <h1>Alina's Portfolio</h1>
             </header>
             <div className="alina-portfolio">
-                <div className="alina-portfolio__content">
+                <div className="alina-portfolio__content ">
                     <Routes>
                         <Route path="/Alina-Portfolio" element={<Landing/>}></Route>
-                        <Route path="/Alina-Portfolio/album" element={<Album/>}></Route>
                         <Route path="*" element={<Landing/>}></Route>
                     </Routes>
                 </div>

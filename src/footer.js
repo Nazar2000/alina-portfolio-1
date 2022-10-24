@@ -19,7 +19,7 @@ export class Footer extends Component {
                         <ul className="socials-media">
                             <li>
                                 <a href="https://www.instagram.com/alink3250/"
-                                   target="_blank">
+                                   target="blank">
                                     <span>My Instagram</span>
                                     <img src="https://nazar2000.github.io/angular-portfolio/assets/images/instagram.svg"
                                          alt=""/>
@@ -27,7 +27,7 @@ export class Footer extends Component {
                                 </li>
                                 <li>
                                 <a href="https://www.instagram.com/m_alin32_art/"
-                                   target="_blank">
+                                   target="blank">
                                     <span>Portfolio Instagram</span>
                                     <img src="https://nazar2000.github.io/angular-portfolio/assets/images/instagram.svg"
                                          alt=""/>
